@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f09ec143-880d-4213-aeb0-863ad24f7ea2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mituc" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YkMi0buCoxoVE5nOkIaKFTSsGM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugins" />
+      <recent name="$PROJECT_DIR$/Mituc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.supybot">
+    <configuration name="supybot" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="mituc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/mituc/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/.virtualenvs/mituc/bin/supybot" />
+      <option name="PARAMETERS" value="mituc_v2.conf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mituc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.supybot" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f09ec143-880d-4213-aeb0-863ad24f7ea2" name="Default Changelist" comment="" />
+      <created>1583482261718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583482261718</updated>
+      <workItem from="1583482263424" duration="12636000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583497114042">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="418" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583497114042" />
+    <state x="743" y="263" width="434" height="588" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583497105943">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="743" y="263" width="434" height="588" key="#com.intellij.ide.macro.MacrosDialog/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583497105943" />
+    <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl" timestamp="1583497113117">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583497113117" />
+    <state width="1878" height="345" key="GridCell.Tab.0.bottom" timestamp="1583501463203">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1878" height="345" key="GridCell.Tab.0.bottom/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501463203" />
+    <state width="1878" height="345" key="GridCell.Tab.0.center" timestamp="1583501463203">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1878" height="345" key="GridCell.Tab.0.center/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501463203" />
+    <state width="1878" height="345" key="GridCell.Tab.0.left" timestamp="1583501463202">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1878" height="345" key="GridCell.Tab.0.left/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501463202" />
+    <state width="1878" height="345" key="GridCell.Tab.0.right" timestamp="1583501463203">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1878" height="345" key="GridCell.Tab.0.right/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501463203" />
+    <state width="1878" height="345" key="GridCell.Tab.1.bottom" timestamp="1583501443163">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1878" height="345" key="GridCell.Tab.1.bottom/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501443163" />
+    <state width="1878" height="345" key="GridCell.Tab.1.center" timestamp="1583501443162">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1878" height="345" key="GridCell.Tab.1.center/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501443162" />
+    <state width="1878" height="345" key="GridCell.Tab.1.left" timestamp="1583501443162">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1878" height="345" key="GridCell.Tab.1.left/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501443162" />
+    <state width="1878" height="345" key="GridCell.Tab.1.right" timestamp="1583501443163">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1878" height="345" key="GridCell.Tab.1.right/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501443163" />
+    <state x="684" y="287" width="540" height="524" key="StructurePopup" timestamp="1583496238939">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="684" y="287" width="540" height="524" key="StructurePopup/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583496238939" />
+    <state x="613" y="169" width="693" height="776" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583500725089">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="613" y="169" width="693" height="776" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583500725089" />
+    <state x="2156" y="101" width="950" height="646" key="dock-window-1" timestamp="1583500880847">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2156" y="101" width="950" height="646" key="dock-window-1/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583500880847" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1583500747174">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583500747174" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="world.getIrc(self.network)" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mituc$supybot.coverage" NAME="supybot Coverage Results" MODIFIED="1583501390092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mituc$test.coverage" NAME="test Coverage Results" MODIFIED="1583494774632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -1,0 +1,544 @@
+ERROR 2020-03-06T13:58:50 supybot Invalid user dictionary file, resetting to empty.
+ERROR 2020-03-06T13:58:50 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: '/home/gcbirzan/PycharmProjects/mituc/conf/users.conf'
+ERROR 2020-03-06T13:58:50 supybot Invalid channel database, resetting to empty.
+ERROR 2020-03-06T13:58:50 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: '/home/gcbirzan/PycharmProjects/mituc/conf/channels.conf'
+WARNING 2020-03-06T13:58:50 supybot Couldn't open ignore database: [Errno 2] No such file or directory: '/home/gcbirzan/PycharmProjects/mituc/conf/ignores.conf'
+INFO 2020-03-06T13:59:50 supybot Shutdown initiated.
+INFO 2020-03-06T13:59:50 supybot Killing Driver objects.
+INFO 2020-03-06T13:59:50 supybot Killing Irc objects.
+INFO 2020-03-06T13:59:50 supybot Shutdown complete.
+INFO 2020-03-06T14:00:26 supybot Connecting to irc.lug.ro:6697.
+WARNING 2020-03-06T14:00:26 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2020-03-06T14:00:27 supybot Server irc2.lug.ro has version charybdis-3.5.5
+INFO 2020-03-06T14:00:27 supybot Got end of MOTD from irc2.lug.ro
+INFO 2020-03-06T14:00:30 supybot Join to #mitucv2 on rlug synced in 3.13 seconds.
+INFO 2020-03-06T14:00:50 supybot load called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:00:50 supybot Preventing gcbirzan!gcbirzan@users.lug.ro from calling owner because of -owner.
+WARNING 2020-03-06T14:00:50 supybot Denying gcbirzan!gcbirzan@users.lug.ro for lacking "owner" capability.
+INFO 2020-03-06T14:00:55 supybot whoami called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:01:05 supybot user identify called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:01:11 supybot load called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:02:31 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2020-03-06T14:02:31 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T14:02:31 supybot Driver for Irc object for rlug dying.
+INFO 2020-03-06T14:02:31 supybot Irc object for rlug dying.
+INFO 2020-03-06T14:02:31 supybot Driver for Irc object for rlug dying.
+INFO 2020-03-06T14:02:31 supybot Removing driver SocketDriver(Irc object for rlug).
+INFO 2020-03-06T14:02:31 supybot Total uptime: 2 minutes and 4 seconds.
+INFO 2020-03-06T14:02:31 supybot Total CPU time taken: 0.38 seconds.
+INFO 2020-03-06T14:02:31 supybot No more Irc objects, exiting.
+INFO 2020-03-06T14:02:31 supybot Shutdown initiated.
+INFO 2020-03-06T14:02:31 supybot Killing Driver objects.
+INFO 2020-03-06T14:02:31 supybot Killing Irc objects.
+INFO 2020-03-06T14:02:31 supybot Writing registry file to mituc_v2.conf
+INFO 2020-03-06T14:02:31 supybot Finished writing registry file.
+INFO 2020-03-06T14:02:31 supybot Shutdown complete.
+INFO 2020-03-06T14:02:31 supybot Connecting to irc.lug.ro:6697.
+WARNING 2020-03-06T14:02:31 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2020-03-06T14:02:32 supybot Server irc2.lug.ro has version charybdis-3.5.5
+INFO 2020-03-06T14:02:32 supybot Got end of MOTD from irc2.lug.ro
+INFO 2020-03-06T14:02:35 supybot Join to #mitucv2 on rlug synced in 3.12 seconds.
+INFO 2020-03-06T14:02:36 supybot user identify called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:02:40 supybot load called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+ERROR 2020-03-06T14:02:40 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1334, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1300, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1109, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugins/Owner/plugin.py", line 442, in load
+    module = plugin.loadPluginModule(name, ignoreDeprecation)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugin.py", line 76, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/__init__.py", line 30, in <module>
+    from . import plugin
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 22, in <module>
+    class Mituc(callbacks.Plugin):
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 31, in Mituc
+    @wrap
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1127, in wrap
+    return _wrap(f, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1100, in _wrap
+    'Command %r has no docstring.' % name
+AssertionError: Command 'mituc' has no docstring.
+ERROR 2020-03-06T14:02:40 supybot Exception id: 0xb4f71
+INFO 2020-03-06T14:02:58 supybot load called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+ERROR 2020-03-06T14:02:58 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1334, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1300, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1109, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugins/Owner/plugin.py", line 456, in load
+    cb = plugin.loadPluginClass(irc, module)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugin.py", line 124, in loadPluginClass
+    cb = module.Class(irc)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/python.py", line 102, in __init__
+    original__init__(self, *args, **kwargs)
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 26, in __init__
+    with open(current_path / "corpus.txt") as f:
+NotADirectoryError: [Errno 20] Not a directory: '/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py/corpus.txt'
+ERROR 2020-03-06T14:02:58 supybot Exception id: 0x4c6fa
+INFO 2020-03-06T14:03:08 supybot load called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:03:11 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:04:10 supybot reload called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:04:12 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:04:20 supybot join called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:04:23 supybot Join to #mumu on rlug synced in 3.20 seconds.
+INFO 2020-03-06T14:04:24 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:04:36 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:09:11 supybot mituc called on #mumu by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:10:32 supybot mituc called in private by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:10:33 supybot mituc called in private by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:10:36 supybot mituc called in private by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:10:37 supybot mituc called in private by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:10:40 supybot mituc called in private by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:10:41 supybot mituc called in private by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:10:44 supybot mituc called in private by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:10:46 supybot mituc called in private by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:10:48 supybot reload called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+ERROR 2020-03-06T14:10:48 supybot Uncaught exception in ['reload'].
+Traceback (most recent call last):
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 827, in getConverter
+    return wrappers[name]
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/gen.py", line 282, in __getitem__
+    return self.data[self.key(k)][1]
+KeyError: 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1334, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1300, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1109, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugins/Owner/plugin.py", line 477, in reload
+    module = plugin.loadPluginModule(name)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugin.py", line 76, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/__init__.py", line 37, in <module>
+    reload(plugin)
+  File "/usr/lib/python3.7/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 22, in <module>
+    class Mituc(callbacks.Plugin):
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 31, in Mituc
+    @wrap([additional(('str', 'word'), None)])
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 892, in __init__
+    self.__parent.__init__(spec)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 857, in __init__
+    self.converter = getConverter(spec[0])
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 829, in getConverter
+    raise UnknownConverter(str(e))
+supybot.commands.UnknownConverter: "'str'"
+ERROR 2020-03-06T14:10:48 supybot Exception id: 0xd6c1c
+INFO 2020-03-06T14:10:51 supybot Ignoring *!*@users.lug.ro for 300 seconds due to an apparent command flood.
+INFO 2020-03-06T14:13:01 supybot reload called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:13:05 supybot reload called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:13:08 supybot load called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:13:11 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+ERROR 2020-03-06T14:13:11 supybot Uncaught exception in ['mituc'].
+Traceback (most recent call last):
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1334, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1300, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1103, in newf
+    state = spec(irc, msg, args, stateAttrs={'cb': self, 'log': self.log})
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1089, in __call__
+    context(irc, msg, args, state)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 897, in __call__
+    self.__parent.__call__(irc, msg, args, state)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 869, in __call__
+    self.converter(irc, msg, args, state, *self.args)
+TypeError: getLowered() takes 4 positional arguments but 5 were given
+ERROR 2020-03-06T14:13:11 supybot Exception id: 0xf6375
+INFO 2020-03-06T14:13:55 supybot reload called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:13:58 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:14:11 supybot reload called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:14:12 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:14:15 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:14:17 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:14:47 supybot reload called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+ERROR 2020-03-06T14:14:47 supybot Uncaught exception in ['reload'].
+Traceback (most recent call last):
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1334, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1300, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1109, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugins/Owner/plugin.py", line 477, in reload
+    module = plugin.loadPluginModule(name)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugin.py", line 76, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/__init__.py", line 37, in <module>
+    reload(plugin)
+  File "/usr/lib/python3.7/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 22, in <module>
+    class Mituc(callbacks.Plugin):
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 31, in Mituc
+    @wrap([additional(['text'])])
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 892, in __init__
+    self.__parent.__init__(spec)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 864, in __init__
+    assert isinstance(spec, context)
+AssertionError
+ERROR 2020-03-06T14:14:47 supybot Exception id: 0x3533d
+INFO 2020-03-06T14:15:06 supybot reload called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:15:10 supybot load called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+ERROR 2020-03-06T14:15:10 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1334, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1300, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1109, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugins/Owner/plugin.py", line 442, in load
+    module = plugin.loadPluginModule(name, ignoreDeprecation)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugin.py", line 76, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/__init__.py", line 30, in <module>
+    from . import plugin
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 22, in <module>
+    class Mituc(callbacks.Plugin):
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 31, in Mituc
+    @wrap(optional('text'))
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1127, in wrap
+    return _wrap(f, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1098, in _wrap
+    name = name or f.__name__
+AttributeError: 'optional' object has no attribute '__name__'
+ERROR 2020-03-06T14:15:10 supybot Exception id: 0x1b7f3
+INFO 2020-03-06T14:15:42 supybot load called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:15:45 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:15:46 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:15:50 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:16:04 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:17:00 supybot reload called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:17:02 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:17:04 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:17:06 supybot mituc called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:17:20 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2020-03-06T14:17:20 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T14:17:20 supybot Driver for Irc object for rlug dying.
+INFO 2020-03-06T14:17:20 supybot Irc object for rlug dying.
+INFO 2020-03-06T14:17:20 supybot Driver for Irc object for rlug dying.
+INFO 2020-03-06T14:17:20 supybot Removing driver SocketDriver(Irc object for rlug).
+INFO 2020-03-06T14:17:20 supybot Total uptime: 14 minutes and 48 seconds.
+INFO 2020-03-06T14:17:20 supybot Total CPU time taken: 3.38 seconds.
+INFO 2020-03-06T14:17:20 supybot No more Irc objects, exiting.
+INFO 2020-03-06T14:17:20 supybot Shutdown initiated.
+INFO 2020-03-06T14:17:20 supybot Killing Driver objects.
+INFO 2020-03-06T14:17:20 supybot Killing Irc objects.
+INFO 2020-03-06T14:17:20 supybot Writing registry file to mituc_v2.conf
+INFO 2020-03-06T14:17:20 supybot Finished writing registry file.
+INFO 2020-03-06T14:17:20 supybot Shutdown complete.
+INFO 2020-03-06T14:18:36 supybot Connecting to irc.lug.ro:6697.
+WARNING 2020-03-06T14:18:36 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2020-03-06T14:18:36 supybot Server irc2.lug.ro has version charybdis-3.5.5
+INFO 2020-03-06T14:18:36 supybot Got end of MOTD from irc2.lug.ro
+INFO 2020-03-06T14:18:42 supybot Join to #mitucv2 on rlug synced in 5.33 seconds.
+INFO 2020-03-06T14:18:43 supybot mituc called on #mumu by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:18:43 supybot Join to #mumu on rlug synced in 6.54 seconds.
+INFO 2020-03-06T14:18:51 supybot mituc called on #mumu by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:18:52 supybot load called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:18:52 supybot Preventing gcbirzan!gcbirzan@users.lug.ro from calling owner because of -owner.
+WARNING 2020-03-06T14:18:52 supybot Denying gcbirzan!gcbirzan@users.lug.ro for lacking "owner" capability.
+INFO 2020-03-06T14:18:58 supybot user identify called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:19:01 supybot load called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:19:27 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:19:52 supybot mituc called on #mumu by "cmatei_!cmatei@users.lug.ro".
+INFO 2020-03-06T14:20:06 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:20:10 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:20:15 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:20:20 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:20:59 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:21:04 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:21:33 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:21:34 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:21:36 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:21:41 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:21:46 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:22:14 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:22:17 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:22:20 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:23:26 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:23:27 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:23:31 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:24:30 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:24:44 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:24:52 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:25:39 supybot mituc called on #mumu by "T0T!tot@users.lug.ro".
+INFO 2020-03-06T14:26:31 supybot mituc mituc called on #mumu by "T0T!tot@users.lug.ro".
+INFO 2020-03-06T14:26:38 supybot mituc mituc called on #mumu by "T0T!tot@users.lug.ro".
+INFO 2020-03-06T14:26:42 supybot reload called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:26:47 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:26:51 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:27:02 supybot mituc called on #mumu by "gabim!uid282269@users.lug.ro".
+INFO 2020-03-06T14:27:08 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:27:45 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:27:47 supybot mituc called on #mumu by "T0T!tot@users.lug.ro".
+INFO 2020-03-06T14:28:04 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:31:25 supybot part called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:31:29 supybot part called on #mitucv2 by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:31:51 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:31:57 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:32:08 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:32:14 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:33:32 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:40:39 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:40:41 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:42:16 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:42:17 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:42:22 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:43:38 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:43:41 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:44:28 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:44:30 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:48:56 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:49:22 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+ERROR 2020-03-06T14:50:35 supybot Uncaught exception in Irc.takeMsg:
+Traceback (most recent call last):
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/irclib.py", line 891, in takeMsg
+    self._setMsgChannel(msg)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/irclib.py", line 935, in _setMsgChannel
+    if msg.args:
+AttributeError: 'str' object has no attribute 'args'
+ERROR 2020-03-06T14:50:35 supybot Exception id: 0xcff32
+INFO 2020-03-06T14:50:44 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T14:59:21 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:10:29 supybot mituc called on #mumu by "Raven007!sid296637@users.lug.ro".
+INFO 2020-03-06T15:10:49 supybot mituc called on #mumu by "Raven007!sid296637@users.lug.ro".
+INFO 2020-03-06T15:11:09 supybot mituc called on #mumu by "Raven007!sid296637@users.lug.ro".
+INFO 2020-03-06T15:11:27 supybot mituc called on #mumu by "Raven007!sid296637@users.lug.ro".
+INFO 2020-03-06T15:14:06 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:14:31 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2020-03-06T15:14:31 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T15:14:31 supybot Driver for Irc object for rlug dying.
+INFO 2020-03-06T15:14:31 supybot Irc object for rlug dying.
+INFO 2020-03-06T15:14:31 supybot Driver for Irc object for rlug dying.
+INFO 2020-03-06T15:14:31 supybot Removing driver SocketDriver(Irc object for rlug).
+INFO 2020-03-06T15:14:31 supybot Total uptime: 55 minutes and 55 seconds.
+INFO 2020-03-06T15:14:31 supybot Total CPU time taken: 97.23 seconds.
+INFO 2020-03-06T15:14:31 supybot No more Irc objects, exiting.
+INFO 2020-03-06T15:14:31 supybot Shutdown initiated.
+INFO 2020-03-06T15:14:31 supybot Killing Driver objects.
+INFO 2020-03-06T15:14:31 supybot Killing Irc objects.
+INFO 2020-03-06T15:14:31 supybot Writing registry file to mituc_v2.conf
+INFO 2020-03-06T15:14:31 supybot Finished writing registry file.
+INFO 2020-03-06T15:14:31 supybot Shutdown complete.
+INFO 2020-03-06T15:14:32 supybot Connecting to irc.lug.ro:6697.
+WARNING 2020-03-06T15:14:32 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2020-03-06T15:14:34 supybot Server irc2.lug.ro has version charybdis-3.5.5
+INFO 2020-03-06T15:14:34 supybot Got end of MOTD from irc2.lug.ro
+INFO 2020-03-06T15:14:37 supybot Join to #mumu on rlug synced in 3.30 seconds.
+INFO 2020-03-06T15:15:09 supybot mituc called on #mumu by "Raven007!sid296637@users.lug.ro".
+INFO 2020-03-06T15:15:19 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:15:19 supybot Preventing gcbirzan!gcbirzan@users.lug.ro from calling owner because of -owner.
+WARNING 2020-03-06T15:15:19 supybot Denying gcbirzan!gcbirzan@users.lug.ro for lacking "owner" capability.
+INFO 2020-03-06T15:15:26 supybot user identify called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:15:27 supybot mituc called on #mumu by "Raven007!sid296637@users.lug.ro".
+INFO 2020-03-06T15:15:48 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:15:53 supybot mituc called on #mumu by "Raven007!sid296637@users.lug.ro".
+INFO 2020-03-06T15:17:29 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:18:05 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:21:23 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:21:51 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:22:58 supybot Connecting to irc.lug.ro:6697.
+WARNING 2020-03-06T15:22:58 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2020-03-06T15:23:00 supybot Server irc1.lug.ro has version charybdis-3.5.5
+INFO 2020-03-06T15:23:00 supybot Got end of MOTD from irc1.lug.ro
+INFO 2020-03-06T15:23:03 supybot Join to #mumu on rlug synced in 3.36 seconds.
+INFO 2020-03-06T15:24:34 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:24:34 supybot Preventing gcbirzan!gcbirzan@users.lug.ro from calling owner because of -owner.
+WARNING 2020-03-06T15:24:34 supybot Denying gcbirzan!gcbirzan@users.lug.ro for lacking "owner" capability.
+INFO 2020-03-06T15:24:42 supybot user identify called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:24:43 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:24:50 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:24:52 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:24:53 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:25:05 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:25:07 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:25:09 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:25:25 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:26:23 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:26:27 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:26:47 supybot mituc called on #mumu by "amiralul!amiralul@nasa.ro".
+INFO 2020-03-06T15:26:53 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:26:54 supybot mituc called on #mumu by "amiralul!amiralul@nasa.ro".
+INFO 2020-03-06T15:26:59 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:03 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:05 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:07 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:09 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:10 supybot mituc called on #mumu by "amiralul!amiralul@nasa.ro".
+INFO 2020-03-06T15:27:11 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:14 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:16 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:19 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:29 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:35 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:27:37 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:29:50 supybot Connecting to irc.lug.ro:6697.
+WARNING 2020-03-06T15:29:50 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2020-03-06T15:29:54 supybot Server irc2.lug.ro has version charybdis-3.5.5
+INFO 2020-03-06T15:29:54 supybot Got end of MOTD from irc2.lug.ro
+INFO 2020-03-06T15:29:57 supybot Join to #mumu on rlug synced in 3.25 seconds.
+INFO 2020-03-06T15:29:58 supybot user identify called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:30:02 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+ERROR 2020-03-06T15:30:11 supybot Uncaught exception in ['reload'].
+Traceback (most recent call last):
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1334, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/callbacks.py", line 1300, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/commands.py", line 1109, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugins/Owner/plugin.py", line 487, in reload
+    callback = plugin.loadPluginClass(irc, module)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/plugin.py", line 124, in loadPluginClass
+    cb = module.Class(irc)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/utils/python.py", line 102, in __init__
+    original__init__(self, *args, **kwargs)
+  File "/home/gcbirzan/PycharmProjects/mituc/plugins/Mituc/plugin.py", line 36, in __init__
+    schedule.addPeriodicEvent(self.random_mituc, 120, name='mituc')
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/schedule.py", line 125, in addPeriodicEvent
+    return wrapper()
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/schedule.py", line 122, in wrapper
+    return self.addEvent(wrapper, time.time() + t, name)
+  File "/home/gcbirzan/.virtualenvs/mituc/lib/python3.7/site-packages/supybot/schedule.py", line 88, in addEvent
+    'An event with the same name has already been scheduled.'
+AssertionError: An event with the same name has already been scheduled.
+ERROR 2020-03-06T15:30:11 supybot Exception id: 0x1eedc
+INFO 2020-03-06T15:30:28 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:30:29 supybot load called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:30:38 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:30:41 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T15:31:14 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:13:07 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:24:30 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:24:33 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:24:37 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:24:43 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:26:23 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:29:55 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T16:43:53 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:44:18 supybot reload called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:51:37 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:51:41 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:52:43 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:52:48 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:53:02 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T16:55:16 supybot mituc called on #mumu by "crenguta1!crenguta@users.lug.ro".
+INFO 2020-03-06T16:56:06 supybot mituc called on #mumu by "crenguta1!crenguta@users.lug.ro".
+INFO 2020-03-06T17:07:13 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T17:11:41 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T17:11:42 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T17:29:55 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T17:32:30 supybot reload called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T17:38:57 supybot mituc called on #mumu by "KobrAs!sid28465@is.NOT.an.IRC.warrior".
+INFO 2020-03-06T17:39:02 supybot mituc called on #mumu by "KobrAs!sid28465@is.NOT.an.IRC.warrior".
+INFO 2020-03-06T17:39:11 supybot mituc called on #mumu by "KobrAs!sid28465@is.NOT.an.IRC.warrior".
+INFO 2020-03-06T17:39:26 supybot reload called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T17:39:28 supybot mituc called on #mumu by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:00 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:02 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:03 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:05 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:09 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:12 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:13 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:16 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:17 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:19 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:23 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:24 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:25 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:33 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:34 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:40 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:45 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:08:47 supybot mituc called in private by "gcbirzan!gcbirzan@users.lug.ro".
+INFO 2020-03-06T18:29:56 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T19:29:57 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T20:29:57 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T21:29:58 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T22:29:58 supybot Flushers flushed and garbage collected.
+INFO 2020-03-06T23:29:59 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T00:30:00 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T01:30:01 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T01:33:44 supybot mituc called on #mumu by "KobrAs!sid28465@is.NOT.an.IRC.warrior".
+INFO 2020-03-07T02:30:02 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T03:30:02 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T03:50:59 supybot mituc called on #mumu by "firecloud!uid24964@users.lug.ro".
+INFO 2020-03-07T03:51:23 supybot mituc called on #mumu by "cmatei!cmatei@users.lug.ro".
+INFO 2020-03-07T04:30:03 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T05:30:04 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T06:30:05 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T07:19:51 supybot mituc called on #mumu by "amiralul!amiralul@nasa.ro".
+INFO 2020-03-07T07:22:44 supybot mituc called on #mumu by "gabim!uid282269@users.lug.ro".
+INFO 2020-03-07T07:30:05 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T08:13:35 supybot mituc called on #mumu by "amiralul!amiralul@nasa.ro".
+INFO 2020-03-07T08:13:58 supybot mituc called on #mumu by "amiralul!amiralul@nasa.ro".
+INFO 2020-03-07T08:30:06 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T09:30:07 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T10:04:47 supybot mituc called on #mumu by "m0n5t3r!irssi@users.lug.ro".
+INFO 2020-03-07T10:12:30 supybot mituc called on #mumu by "cmatei!cmatei@users.lug.ro".
+INFO 2020-03-07T10:12:57 supybot mituc called on #mumu by "cmatei!cmatei@users.lug.ro".
+INFO 2020-03-07T10:27:15 supybot mituc called on #mumu by "KobrAs!sid28465@is.NOT.an.IRC.warrior".
+INFO 2020-03-07T10:30:08 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T10:34:08 supybot mituc called on #mumu by "rpetre!petre@users.lug.ro".
+INFO 2020-03-07T10:34:55 supybot mituc called on #mumu by "rpetre!petre@users.lug.ro".
+INFO 2020-03-07T11:05:33 supybot mituc called on #mumu by "KobrAs!sid28465@is.NOT.an.IRC.warrior".
+INFO 2020-03-07T11:05:53 supybot mituc called on #mumu by "KobrAs!sid28465@is.NOT.an.IRC.warrior".
+INFO 2020-03-07T11:06:19 supybot mituc called on #mumu by "KobrAs!sid28465@is.NOT.an.IRC.warrior".
+INFO 2020-03-07T11:30:09 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T12:30:09 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T13:30:10 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T13:30:22 supybot mituc called on #mumu by "rpetre!petre@users.lug.ro".
+INFO 2020-03-07T13:31:18 supybot mituc called on #mumu by "cmatei!cmatei@users.lug.ro".
+INFO 2020-03-07T13:32:10 supybot mituc called on #mumu by "rpetre!petre@users.lug.ro".
+INFO 2020-03-07T13:32:32 supybot mituc called on #mumu by "cmatei!cmatei@users.lug.ro".
+INFO 2020-03-07T13:47:22 supybot mituc called on #mumu by "amiralul!amiralul@nasa.ro".
+INFO 2020-03-07T14:30:10 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T15:30:11 supybot Flushers flushed and garbage collected.
+INFO 2020-03-07T16:30:12 supybot Flushers flushed and garbage collected.
