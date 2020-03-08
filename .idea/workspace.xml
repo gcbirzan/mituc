@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f09ec143-880d-4213-aeb0-863ad24f7ea2" name="Default Changelist" comment="" />
+    <list default="true" id="f09ec143-880d-4213-aeb0-863ad24f7ea2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/plugins/Mituc/corpus_bigger.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/channels.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/channels.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/userdata.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/userdata.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/messages.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/messages.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mituc_v2.conf" beforeDir="false" afterPath="$PROJECT_DIR$/mituc_v2.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mituc_v2.conf.bak" beforeDir="false" afterPath="$PROJECT_DIR$/mituc_v2.conf.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Mituc/plugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Mituc/plugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +27,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YkMi0buCoxoVE5nOkIaKFTSsGM" />
   <component name="ProjectViewState">
@@ -36,14 +50,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/plugins" />
       <recent name="$PROJECT_DIR$/Mituc" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gc\PycharmProjects\mituc" />
+      <recent name="C:\Users\gc\PycharmProjects\mituc\plugins\Mituc" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.supybot">
+  <component name="RunManager" selected="Python.test">
     <configuration name="supybot" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="mituc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,13 +70,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/mituc/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/.virtualenvs/mituc/bin/supybot" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../venvs/mituc/Scripts/supybot" />
       <option name="PARAMETERS" value="mituc_v2.conf" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,6 +91,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="Path" value="C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Calibre2\;C:\Program Files\Microsoft VS Code\bin;C:\Users\gc\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\gc\AppData\Local\Programs\Python\Python38-32\;C:\Users\gc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\smartmontools\bin;C:\Users\gc\AppData\Roaming\npm;;C:\Program Files\JetBrains\PyCharm 2019.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\CUPTI\libx64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;c:\cuda\bin" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -98,6 +118,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -109,6 +141,10 @@
       <option name="presentableId" value="Default" />
       <updated>1583482261718</updated>
       <workItem from="1583482263424" duration="12636000" />
+      <workItem from="1583593644725" duration="195000" />
+      <workItem from="1583593876975" duration="2087000" />
+      <workItem from="1583597262440" duration="3563000" />
+      <workItem from="1583606055227" duration="16903000" />
     </task>
     <servers />
   </component>
@@ -116,50 +152,71 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583497114042">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state x="418" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583607200154">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="418" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583607200154" />
     <state x="418" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583497114042" />
+    <state x="679" y="389" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583608115135">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="679" y="389" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583608115135" />
     <state x="743" y="263" width="434" height="588" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583497105943">
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="743" y="263" width="434" height="588" key="#com.intellij.ide.macro.MacrosDialog/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583497105943" />
+    <state x="698" y="308" key="EnvironmentVariablesDialog" timestamp="1583607199259">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="698" y="308" key="EnvironmentVariablesDialog/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583607199259" />
     <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl" timestamp="1583497113117">
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="743" y="313" width="434" height="488" key="FileChooserDialogImpl/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583497113117" />
-    <state width="1878" height="345" key="GridCell.Tab.0.bottom" timestamp="1583501463203">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1583618119012">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583618119012" />
     <state width="1878" height="345" key="GridCell.Tab.0.bottom/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501463203" />
-    <state width="1878" height="345" key="GridCell.Tab.0.center" timestamp="1583501463203">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1583618119011">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583618119011" />
     <state width="1878" height="345" key="GridCell.Tab.0.center/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501463203" />
-    <state width="1878" height="345" key="GridCell.Tab.0.left" timestamp="1583501463202">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1583618119011">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583618119011" />
     <state width="1878" height="345" key="GridCell.Tab.0.left/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501463202" />
-    <state width="1878" height="345" key="GridCell.Tab.0.right" timestamp="1583501463203">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1583618119012">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583618119012" />
     <state width="1878" height="345" key="GridCell.Tab.0.right/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501463203" />
-    <state width="1878" height="345" key="GridCell.Tab.1.bottom" timestamp="1583501443163">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1583617029017">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583617029017" />
     <state width="1878" height="345" key="GridCell.Tab.1.bottom/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501443163" />
-    <state width="1878" height="345" key="GridCell.Tab.1.center" timestamp="1583501443162">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1583617029017">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583617029017" />
     <state width="1878" height="345" key="GridCell.Tab.1.center/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501443162" />
-    <state width="1878" height="345" key="GridCell.Tab.1.left" timestamp="1583501443162">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1583617029016">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583617029016" />
     <state width="1878" height="345" key="GridCell.Tab.1.left/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501443162" />
-    <state width="1878" height="345" key="GridCell.Tab.1.right" timestamp="1583501443163">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1583617029017">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583617029017" />
     <state width="1878" height="345" key="GridCell.Tab.1.right/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583501443163" />
+    <state x="463" y="225" key="SettingsEditor" timestamp="1583608759682">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="463" y="225" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583608759682" />
     <state x="684" y="287" width="540" height="524" key="StructurePopup" timestamp="1583496238939">
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
@@ -172,29 +229,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2156" y="101" width="950" height="646" key="dock-window-1/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583500880847" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1583500747174">
-      <screen x="0" y="31" width="1920" height="1049" />
+    <state x="623" y="252" width="672" height="750" key="search.everywhere.popup" timestamp="1583593999631">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="623" y="252" width="672" height="750" key="search.everywhere.popup/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1583593999631" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1583500747174" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="world.getIrc(self.network)" language="Python" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mituc$supybot.coverage" NAME="supybot Coverage Results" MODIFIED="1583501390092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mituc$test.coverage" NAME="test Coverage Results" MODIFIED="1583494774632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mituc$test.coverage" NAME="test Coverage Results" MODIFIED="1583618119005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mituc$supybot.coverage" NAME="supybot Coverage Results" MODIFIED="1583597282552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

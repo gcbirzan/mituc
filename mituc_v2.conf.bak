@@ -65,7 +65,7 @@ supybot.abuse.flood.command.invalid.punishment: 600
 #
 # Default value: 12
 ###
-supybot.abuse.flood.command.maximum: 12
+supybot.abuse.flood.command.maximum: 120
 
 ###
 # Determines whether the bot will notify people that they're being
@@ -109,9 +109,9 @@ supybot.alwaysJoinOnInvite: False
 # docs/CAPABILITIES if you don't understand why these default to what
 # they do.
 #
-# Default value: -aka.remove -trusted -owner -admin -scheduler.add -alias.add -alias.remove -aka.add -aka.set -scheduler.remove
+# Default value: -alias.add -scheduler.add -admin -scheduler.remove -trusted -aka.add -aka.remove -aka.set -alias.remove -owner
 ###
-supybot.capabilities: -aka.set -aka.remove -trusted -owner -admin -alias.add -alias.remove -aka.add -scheduler.add -scheduler.remove
+supybot.capabilities: -alias.add -scheduler.add -admin -scheduler.remove -trusted -aka.add -aka.remove -aka.set -alias.remove -owner
 
 ###
 # Determines whether the bot by default will allow users to have a
@@ -170,9 +170,9 @@ supybot.commands.defaultPlugins.ignore: Admin
 # change this if you don't know what you're doing; if you do know what
 # you're doing, then also know that this set is case-sensitive.
 #
-# Default value: Channel Owner Admin Config User Misc
+# Default value: Owner Channel Admin Misc Config User
 ###
-supybot.commands.defaultPlugins.importantPlugins: Channel Admin Config Misc User Owner
+supybot.commands.defaultPlugins.importantPlugins: Owner Channel Admin Config User Misc
 supybot.commands.defaultPlugins.list: Misc
 supybot.commands.defaultPlugins.reload: Owner
 supybot.commands.defaultPlugins.removecapability: Admin
@@ -391,28 +391,28 @@ supybot.defaultSocketTimeout: 10
 #
 # Default value: backup
 ###
-supybot.directories.backup: /home/gcbirzan/PycharmProjects/mituc/backup
+supybot.directories.backup: C:/Users/gc/PycharmProjects/mituc/backup
 
 ###
 # Determines what directory configuration data is put into.
 #
 # Default value: conf
 ###
-supybot.directories.conf: /home/gcbirzan/PycharmProjects/mituc/conf
+supybot.directories.conf: C:/Users/gc/PycharmProjects/mituc/conf
 
 ###
 # Determines what directory data is put into.
 #
 # Default value: data
 ###
-supybot.directories.data: /home/gcbirzan/PycharmProjects/mituc/data
+supybot.directories.data: C:/Users/gc/PycharmProjects/mituc/data
 
 ###
 # Determines what directory temporary files are put into.
 #
 # Default value: tmp
 ###
-supybot.directories.data.tmp: /home/gcbirzan/PycharmProjects/mituc/data/tmp
+supybot.directories.data.tmp: C:/Users/gc/PycharmProjects/mituc/data/tmp
 
 ###
 # Determines what directory files of the web server (templates, custom
@@ -420,14 +420,14 @@ supybot.directories.data.tmp: /home/gcbirzan/PycharmProjects/mituc/data/tmp
 #
 # Default value: web
 ###
-supybot.directories.data.web: /home/gcbirzan/PycharmProjects/mituc/data/web
+supybot.directories.data.web: C:/Users/gc/PycharmProjects/mituc/data/web
 
 ###
 # Determines what directory the bot will store its logfiles in.
 #
 # Default value: logs
 ###
-supybot.directories.log: /home/gcbirzan/PycharmProjects/mituc/logs
+supybot.directories.log: C:/Users/gc/PycharmProjects/mituc/logs
 
 ###
 # Determines what directories the bot will look for plugins in. Accepts
@@ -438,7 +438,7 @@ supybot.directories.log: /home/gcbirzan/PycharmProjects/mituc/logs
 #
 # Default value:  
 ###
-supybot.directories.plugins: /home/gcbirzan/PycharmProjects/mituc/plugins
+supybot.directories.plugins: C:/Users/gc/PycharmProjects/mituc/plugins
 
 ###
 # Determines the maximum time the bot will wait before attempting to
@@ -798,7 +798,7 @@ supybot.pidFile:
 #
 # Default value:  
 ###
-supybot.plugins: Utilities Channel Mituc AutoMode NickAuth Admin Config Misc Network User Owner
+supybot.plugins: Utilities Mituc Owner Channel Admin Config User Misc NickAuth Network AutoMode
 
 ###
 # Determines whether this plugin is loaded by default.
