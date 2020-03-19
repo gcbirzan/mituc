@@ -1,3 +1,4 @@
 markovify
 limnoria
 textgenrnn
+# tensorflow==2.1.0

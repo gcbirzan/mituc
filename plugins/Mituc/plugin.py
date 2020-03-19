@@ -50,7 +50,7 @@ class Mituc(callbacks.Plugin):
             print(rand_value)
             if rand_value > .99:
                 irc_obj = world.getIrc(self.network)
-                num_sentences = random.randint(1, 3)
+                num_sentences = random.randint(0, 1)
                 for x in range(num_sentences + 1):
                     sentence = self.generate_mituc()
                     irc_obj.sendMsg(privmsg('#mumu', sentence))
@@ -63,9 +63,8 @@ class Mituc(callbacks.Plugin):
         if text:
             words = text.lower().split()
         start_t = time.time()
-        for x in range(2000):
+        for x in range(500):
             sentence = model.make_sentence(tries=150)
-            sentence = re.sub('[^ ]*?:? *', '', sentence)
 
             match = True
 
@@ -76,6 +75,7 @@ class Mituc(callbacks.Plugin):
                         match = False
                         break
             if match:
+                #sentence = re.sub('[^ ]*?:? *', '', sentence)
                 return f'{sentence}' # {x} {((time.time() - start_t) * 1000) / x}'
 
     @wrap([optional('text', )])
